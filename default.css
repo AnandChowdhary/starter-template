@@ -1,0 +1,16 @@
+[href="#content"] {
+	position: absolute;
+	top: 20px;
+	right: 100%;
+}
+
+[href="#content"]:focus {
+	right: auto;
+	left: 20px;
+}
+
+@media print {
+	body > *:not(main) {
+		display: none;
+	}
+}
